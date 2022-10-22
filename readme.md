@@ -1,26 +1,35 @@
- # The Name of My App
+ # Nutrition Optimizer
 
- A description of my project
+An online application used to search food's nutrition facts. The user should be able to input a specifc good, get nutrition facts for a given food, including: macro and micro nutrients, allergen labels, lifestyle and health labels on the food. If time permits, food nutrition and calorie counters will be added to allow users to log their meals for the day.
+
 
  ### Technologies used
  
- - tech
- - tech2
- - tech3
- - tech4
+- HTML
+- CSS
+- Javascript
+- jQuery
+- APIs
+    - Edamam Food Database Api
  
  ### Wireframes
 
- ![alt text](https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg)
+ ![alt text](https://i.imgur.com/7nfLBlQ.jpg)
+
+
 
 ### Daily Plan
 
 | Day | Goal |
 |-----|------|
-| 1 | Choose API|
+| 1 | Choose API and wireframing|
 | 2 | Render data to screen |
-| 3 | Create form |
+| 3 | Create functions to manipute data |
+| 4 | Create functions to manipute data |
+| 5 | Stylize the app |
+| 6 | Stylize the app |
+| 7 | Implement addtional features |
 
 ### Link to Project
 
-[My Project Live Page](https://www.google.com)
+[My Project Live Page](https://rockcat96.github.io/project1/)
