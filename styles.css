@@ -17,10 +17,12 @@ body {
     min-height: 100vh;
     /* border: 5px solid var(--main-color); */
     justify-content: top;
-    align-items: center;
+    align-items: end; 
+    /* change this later LOL */
     background-image: url("https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bnV0cml0aW9ufGVufDB8fDB8fA%3D%3D&w=1000&q=80");
    background-size: cover;
    background-position: center;
+   padding-right: 200px;
 
 }
 
@@ -42,7 +44,7 @@ h1 {
 input {
     border: 3px solid var(--main-color);
     height: 40px;
-    width: 69%;
+    width: 59%;
     border-radius: 30px;
 }
 
@@ -50,13 +52,31 @@ input[type=submit] {
     color: var(--main-color);
     background: white;
     font-weight: 600;
-    width: 30%;
+    width: 40%;
 
 }
 
 input::placeholder {
 
     color: rgb(134, 119, 119);
-    padding: 0 20px;
+
+    text-align: center;
+
+}
+
+div.foodstats {
+    padding: 20px 0 20px 0;
+    text-align: left;
+    color: var(--main-color);
+    font-size: larger;
+    font-weight: bold;
+
+
+}
+
+p.nutrients {
+    padding: 10px 0;
+    text-align: center;
+
 
 }
