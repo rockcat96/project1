@@ -11,20 +11,83 @@
 </head>
 <body>
     <main>
-        <h1>Eat this! Not that.</h1>
-        <form>
-            <input type = "text" placeholder = "Food Name">
-            <input type = "submit" value = "Get Food Nutrition Facts">
-        </form>
-        <div class = "foodstats"> 
-            <!-- <p id="calories"></p>
-            <p id="fat"></p>
-            <p id="cholesterol"></p>
-            <p id="sodium"></p>
-            <p id="carbohydrate"></p>
-            <p id="sugar"></p>
-            <p id="protein"></p> -->
-        </div>
+        <app1>
+            <h1>Food lookup</h1>
+            <form class="foodLookup">
+                <input type = "text" placeholder = "Food name">
+                <input type = "submit" value = "Search">
+            </form>
+            
+            <div class = "foodstats"> 
+                
+                <p class="nutrients" id="name"></p>
+                
+                <p class="nutrients" id="calories"></p>
+                
+                <p class="nutrients" id="protein"></p>
+                
+                <p class="nutrients" id="fat"></p>
+                
+                <p class="nutrients" id="carbohydrate"></p>
+                
+                <p class="nutrients" id="fiber"></p>
+            </div>
+        </app1>
+
+
+        <app2>
+
+            <h1>Food logging</h1>
+            
+            <form class="goalSetting">
+
+                <select class = "goals">
+                    <option id="cal">Calories</option>
+
+                    <option id="prot">Protein</option>
+                    
+                    <option id="fat">Fat</option>
+
+                    <option 
+                    id="carb">Carbohydrate</option>
+
+                    <option 
+                    id="fiber">Fiber</option>
+
+                </select>
+
+                <input type = "text" placeholder = "100/200gram/etc.">
+                <input type = "submit" value = "Set goal">
+
+            </form>
+
+    
+            <form class="foodLogging">
+                
+                <input type = "text" placeholder = "Food name">
+                    
+                <input type = "submit" value = "Log Food">
+
+            </form>
+
+
+            <div class = "foodstats"> 
+                
+                <p class="nutrients" id="name"></p>
+                
+                <p class="nutrients" id="calories"></p>
+                
+                <p class="nutrients" id="protein"></p>
+                
+                <p class="nutrients" id="fat"></p>
+                
+                <p class="nutrients" id="carbohydrate"></p>
+                
+                <p class="nutrients" id="fiber"></p>
+
+            </div>
+
+        </app2>
     </main>
 </body>
 </html>

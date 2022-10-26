@@ -22,44 +22,78 @@ body {
     background-image: url("https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bnV0cml0aW9ufGVufDB8fDB8fA%3D%3D&w=1000&q=80");
    background-size: cover;
    background-position: center;
-   padding-right: 200px;
+   padding-right: 100px;
 
 }
 
 main {
-    width: 40%;
+    width: 53%;
+
 }
 
 h1 {
-    color: white;
-    font-size: 21px;
+    color: #f7f5ee;
+    background-color: #da9771;
+    font-size: 33px;
     padding: 10px 93px 10px 93px;
     margin: 50px 0px 30px 0px;
-    background-color: var(--main-color);
+    font-family: Verdana;
     text-align: center;
-    font-weight: 520;
-    border-radius: 30px;
+    font-weight: 540;
+    border-radius: 4px;
 }
 
+form.foodLookup {
+    position: relative; 
+    left: 24%;
+    /* transform: translateX(-10%); */
+}
+
+form.goalSetting {
+    position: relative; 
+    left: 16%;
+    /* transform: translateX(-10%); */
+}
+
+form.foodLogging {
+    position: relative; 
+    left: 24%;
+    /* transform: translateX(-10%); */
+}
+
+
 input {
-    border: 3px solid var(--main-color);
+    border: none;
     height: 40px;
-    width: 59%;
-    border-radius: 30px;
+    font-weight: 500;
+    border-radius: 4px;
+    background: white;
+    font-size: medium;
+    color: #56261e;
+    margin: 20px 0;
 }
 
 input[type=submit] {
-    color: var(--main-color);
-    background: white;
-    font-weight: 600;
-    width: 40%;
+    background: #fcdb99;
+    width: 20%;
 
 }
 
+input[type=submit]:hover {
+    background-color: #f5d085;
+    color: white;
+    transition: .6s ease-out 50ms;
+  }
+
+
+input[type=text] {
+    border: 1px solid #ccc;
+    width: 35%;
+    padding: 12px 20px;
+}
+
 input::placeholder {
-
-    color: rgb(134, 119, 119);
-
+    color: #c4b8b8;
     text-align: center;
 
 }
@@ -67,7 +101,7 @@ input::placeholder {
 div.foodstats {
     padding: 20px 0 20px 0;
     text-align: left;
-    color: var(--main-color);
+    color: #56261e;
     font-size: larger;
     font-weight: bold;
 
@@ -78,5 +112,14 @@ p.nutrients {
     padding: 10px 0;
     text-align: center;
 
+
+}
+
+select {
+    padding: 10px 5px;
+    color:#56261e;
+    text-align:center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 
 }
