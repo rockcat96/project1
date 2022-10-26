@@ -69,7 +69,7 @@ const foodSearch = (food) => {
 
 //grab the submit button and put the a click event on it
 
-$("form").on("submit", (event) => {
+$("form.foodLookup").on("submit", (event) => {
     //prevent default
     event.preventDefault()
 
@@ -79,3 +79,29 @@ $("form").on("submit", (event) => {
 
     foodSearch(inputText)
 })
+
+//create a function that searches for food and add together the key nutrients 
+
+
+
+
+
+
+
+
+
+
+
+
+//grab the submit button and put the a click event on it
+
+// $("form.foodLogging").on("submit", (event) => {
+//     //prevent default
+//     event.preventDefault()
+
+//     //grab text from input box add invoke the food search function
+
+//     const inputText = $("input[type=text]").val()
+
+//     foodSearch(inputText)
+// })
