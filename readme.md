@@ -30,6 +30,19 @@ An online application used to search food's nutrition facts. The user should be 
 | 6 | Stylize the app |
 | 7 | Implement addtional features |
 
+### Future Goals
+
+|  | Minimum Features	 | Additional Features | Advanced |
+|-----|------|-----|------|
+| Render API data to the screen | <p style="text-align: center;">x</p> |   |   |
+| Search food by textbox | <p style="text-align: center;">x</p>  |   |   |
+| Basic CSS | <p style="text-align: center;">x</p>  |   |   |
+| Responsive Design |   | <p style="text-align: center;">x</p>  |   |
+| Food logging capabilities |   |   | <p style="text-align: center;">x</p>  |
+| User data storage |   |   | <p style="text-align: center;">x</p>  |
+| Advanced search capabilities |   |   | <p style="text-align: center;">x</p>  |
+
+
 ### Link to Project
 
 [My Project Live Page](https://rockcat96.github.io/project1/)
