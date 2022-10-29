@@ -27,7 +27,24 @@ body {
 
 hero{
     display: flex;
-    flex-direction: column;
+    flex-direction: row; 
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+headers {
+    display: flex;
+    flex-direction: column; 
+    width: 50%;
+    background-color: #ffffff;
+    justify-content: center;
+
+}
+
+img {
+    display: flex;
+    flex-direction: row; 
     width: 100%;
     background-color: #ffffff;
 
@@ -189,18 +206,44 @@ select {
         margin: 16px 20px;
         box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     }
-    
 
     
 }
 
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 1297px) {
+
+    img {
+        width: 40%;
+    }
+    
+}
+
+@media screen and (max-width: 840px) {
+
+
+    hero{
+        display: flex;
+        flex-direction: column; 
+        width: 100%;
+        background-color: #ffffff;
+
+    }
+
+    headers {
+        display: flex;
+        flex-direction: column; 
+        width: 100%;
+        background-color: #ffffff;
+            justify-content: center;
+
+    }
+
 
     img{
         display: block;
         margin: 0 auto;
-        width: 70%;
+        width: 45%;
         margin-bottom: 10px;
     
     }
@@ -256,7 +299,7 @@ select {
     img{
         display: block;
         margin: 0 auto;
-        width: 80%;
+        width: 55%;
         margin-bottom: 10px;
     
     }
@@ -281,6 +324,18 @@ select {
         border-radius: 30px;
         margin: 16px 20px;
         box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+
+    h1 {
+
+        font-size: 30px;
+
+    }
+
+    p {
+        font-size: 12px;
+        padding: 0 4px;
+
     }
 
     input, select {
@@ -341,12 +396,13 @@ select {
         font-size: 20px;
         font-weight: 560;
         margin: 4px 0 16px 0;
+        padding: 0 2px;
     }
     
     img{
         display: block;
         margin: 0 auto;
-        width: 90%;
+        width: 65%;
         margin-bottom: 10px;
     
     }
@@ -434,3 +490,112 @@ select {
 
 
 }
+
+
+@media screen and (max-width: 316px) {
+
+    header {
+        font-size: 42px;
+        font-weight: 600;
+        margin: 15px 0;        
+    }
+    
+    subheader{
+        font-size: 16px;
+        font-weight: 560;
+        margin: 4px 0 16px 0;
+        padding: 0 2px;
+    }
+    
+    img{
+        display: block;
+        margin: 0 auto;
+        width: 65%;
+        margin-bottom: 10px;
+    
+    }
+    
+
+    main{
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+        /* this is changed */
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    app1, app2 {
+        display: flex;
+        flex-direction: column;
+        width: 96%;
+         /* this is changed */
+        background-color:white;
+        border:none;
+        margin: 16px 20px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+
+    h1 {
+        font-size: 20px;
+        padding: 3px 12px;
+        margin-top: 24px;
+        font-family: Verdana;
+        text-align: center;
+        font-weight: 300;
+    }
+
+    app1 p, app2 p {
+        margin: 0px;
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 0px;
+        padding: 7px 12px;
+    }
+
+    input, select {
+        text-align: center;
+        border: none;
+        font-size: 9px;
+        /* this is changed */
+        font-weight: 500;
+        border-radius: 4px;
+        background: white;
+        color: var(--main-text-color);
+        margin: 10px 2px;
+        /* this is changed */
+        padding: 4px 8px;
+        /* this is changed */
+        width: 100%;
+        /* this is changed */
+    }
+
+    form.foodLogging{
+        margin: -4px 2px;
+        /* this is changed */ 
+    }
+
+    input[type=text] {
+        border: 1px solid #ccc;
+        width: 32%;
+        /* this is changed */
+
+    }
+    
+
+    input[type=submit] {
+        background: var(--main-button-color);
+        width: 20%;
+        /* this is changed */
+
+    }
+    
+    select {
+        width: 33%;
+        /* this is changed */
+    }
+
+
+}
+
